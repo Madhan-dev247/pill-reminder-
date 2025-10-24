@@ -1,0 +1,46 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+h1 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+.container {
+  max-width: 450px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 0 auto;
+}
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+button {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+button:hover { background: #43a047; }
+.pill-item {
+  background: #f9fbe7;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pill-item.taken { background: #c8e6c9; text-decoration: line-through; }
+.history-item { font-size: 13px; color: #666; margin-top: 5px; }
